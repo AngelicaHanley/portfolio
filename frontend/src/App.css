@@ -1,0 +1,135 @@
+/* header ! */
+
+header {
+    background-color: #E8F3F9;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 20px clamp(10px,8vw,200px);
+}
+
+.starLogo {
+    width: clamp(12px,2vw,22px);
+    height: clamp(12px,2vw,22px);
+}
+
+.navLogo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #306F96;
+    font-size: clamp(12px,3vw,28px);
+    font-weight: bold;
+    font-family: 'Agbalumo', cursive;
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+    gap: clamp(3px, 3vw, 40px);
+}
+
+.navLink {
+    color: black;
+    text-decoration: none;
+    /*font-size: 16px;*/
+    font-size: clamp(10px,1.3vw,25px);
+}
+
+.navLink:hover {
+    color: #306F96;
+    font-weight: bold;
+}
+
+.contactButton {
+    background-color: #306F96;
+    color: white;
+    
+    width: clamp(80px, 10vw,218px);
+    height: clamp(30px, 3vw,100px);
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: clamp(10px,1.3vw,25px);
+}
+
+/* hero ! */
+
+.hero {
+    max-width: 1250px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(15px, 2.2vw, 44px);
+}
+
+.headshot {
+    width: clamp(100px, 30vw, 340px);
+    align-self: start;
+}
+
+.heroContent {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(5px, 1.5vw, 32px);
+    font-size: clamp(8px, 1.5vw, 20px);
+}
+
+h1 {
+    font-size: clamp(20px, 5vw, 50px);
+    color:#306F96;
+    font-weight: bold;
+    font-family: 'Agbalumo', cursive;
+    margin: 0px;
+}
+
+.heroButtons {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resumeButton {
+    background-color: #E8F3F9;
+    color: #306F96;
+    border: clamp(1px, .7vw, 5px) solid #306F96;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: clamp(12px, 2vw, 24px);
+    width: clamp(80px, 13vw,218px);
+    height: clamp(30px, 4vw,100px);
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.socialFiles {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: auto;
+}
+
+.fileImg {
+   width: clamp(30px, 8vw,111px);
+   height: auto; 
+   object-fit: contain
+}
