@@ -167,7 +167,7 @@ h2 {
     flex-direction: column;
     /*justify-content: start;*/
     background-color: #E8F3F9;
-    border: clamp(.5px, .5vw, 5px) solid #306F96;
+    border: clamp(3px, 0.4vw, 5px) solid #306F96;
     border-radius: 20px;
     overflow: hidden;
 
@@ -198,7 +198,7 @@ h2 {
 
 .projectDescription {
     margin: 0px;
-    font-size: clamp(9px, 1.4vw, 20px);
+    font-size: clamp(9px, 1vw, 20px);
     line-height: 2;
 }
 .projectButton {
@@ -206,7 +206,7 @@ h2 {
     background-color: #306F96;
     color: #E8F3F9;
     font-size: clamp(25px, 2.8vw, 40px);
-    padding: 0px clamp(13px, 1.7vw, 25px);
+    padding: 0px clamp(15px, 1.7vw, 25px);
     text-align: center;
     border-radius: 50px;
     text-decoration: none;

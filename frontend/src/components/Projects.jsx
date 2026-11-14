@@ -1,6 +1,12 @@
 import ProjectCard from './ProjectCard'
 import encoreThumbnail from "../assets/encoreThumbnail.png";
 import encoreTag from "../assets/encoreTag.png";
+import filmPopThumbnail from "../assets/filmPopThumbnail.png";
+import filmPopTag from "../assets/filmPopTag.png";
+import afterdarkThumbnail from "../assets/afterdarkThumbnail.png";
+import afterdarkTag from "../assets/afterdarkTag.png";
+import campbellThumbnail from "../assets/campbellThumbnail.png";
+import campbellTag from "../assets/campbellTag.png";
 
 function Projects() {
   return (
@@ -13,18 +19,34 @@ function Projects() {
       <div className="projectsGrid">
       <ProjectCard
         title="ENCORE"
-        description="A concert-tracking website that allows users to search for upcoming concerts and manage personalized event lists."
+        description="A concert-tracking website that allows users to discover upcoming concerts, create Going and Wishlist lists to organize and keep track of concerts they're interested in attending."
         image={encoreThumbnail}
         tag={encoreTag}
         link="/portfolio/encore"
       />
 
       <ProjectCard
-        title="ENCORE"
-        description="A concert-tracking website that allows users to search for upcoming concerts and manage personalized event lists."
-        image={encoreThumbnail}
-        tag={encoreTag}
-        link="/portfolio/encore"
+        title="FILMPOP"
+        description="Developed a mobile app within a team, that provides users with personalized movie recommendations and an interactive browsing experience."
+        image={filmPopThumbnail}
+        tag={filmPopTag}
+        link="/portfolio/filmPop"
+      />
+
+      <ProjectCard
+        title="AFTERDARK ANALYTICS"
+        description="Created an interactive React application with dynamic user inputs and form validation to generate personalized recommendations."
+        image={afterdarkThumbnail}
+        tag={afterdarkTag}
+        link="/portfolio/afterdarkAnalytics"
+      />
+
+      <ProjectCard
+        title="CAMPBELL PHOTOGRAPHY"
+        description="Developed a cohesive brand identity through logo design, typography, color palettes, and visual elements to create an elegant and recognizable brand."
+        image={campbellThumbnail}
+        tag={campbellTag}
+        link="/portfolio/campbellPhotography"
       />
       </div>
 
