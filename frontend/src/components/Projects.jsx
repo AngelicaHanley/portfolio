@@ -11,7 +11,7 @@ import campbellTag from "../assets/campbellTag.png";
 function Projects() {
   return (
 
-    <div className="portfolio">
+    <div className="section">
       <div className="headings">
         <h2>PROJECTS</h2>
       </div>
