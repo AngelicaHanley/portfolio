@@ -76,6 +76,7 @@ nav {
     justify-content: center;
     align-items: center;
     gap: clamp(15px, 2.2vw, 44px);
+    padding-top: clamp(15px,4vw,80px)
 }
 
 .headshot {
@@ -132,4 +133,18 @@ h1 {
    width: clamp(30px, 8vw,111px);
    height: auto; 
    object-fit: contain
+}
+
+/* projects ! */
+.headings {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 100px;
+    font-family: "Archivo", sans-serif;
+    font-weight: 100;
+    color:#306F96
 }
