@@ -110,7 +110,7 @@ h1 {
 .resumeButton {
     background-color: #E8F3F9;
     color: #306F96;
-    border: clamp(1px, .7vw, 5px) solid #306F96;
+    border: clamp(.5px, .5vw, 5px) solid #306F96;
     border-radius: 50px;
     text-decoration: none;
     font-size: clamp(12px, 2vw, 24px);
@@ -139,12 +139,95 @@ h1 {
 .headings {
     width: 70%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    margin: 0 auto;
 }
 
 h2 {
-    font-size: 100px;
+    font-size: clamp(30px, 7vw, 100px);
     font-family: "Archivo", sans-serif;
     font-weight: 100;
     color:#306F96
+}
+
+/* project card ! */
+.projectCard {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: start;*/
+    background-color: #E8F3F9;
+    border: clamp(.5px, .5vw, 5px) solid #306F96;
+    border-radius: 20px;
+
+}
+.projectImage {
+    width: 100%;
+    height: auto;
+}
+
+.projectCardContent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+}
+
+.projectTag {
+    width: 40%;
+    height: auto;
+}
+
+.projectTitle {
+    color:#306F96;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.projectDescription {
+    margin: 0px;
+    font-size: 20px;
+    line-height: 38px;
+}
+.projectButton {
+    align-self: flex-end;
+    background-color: #306F96;
+    color: #E8F3F9;
+    font-size: 36px;
+    padding: 0px 25px;
+    text-align: center;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    justify-items: center;
+    align-items: center;
+    max-width: 65%;
+    margin: 0px auto;
+}
+
+/* media queries */
+/* small screens */
+@media screen and (max-width: 600px) {
+  .heroButtons {
+    gap: 80px;
+  }
+  .projectCard{
+    width: 85%;
+  }
+}
+
+/* medium screens */
+@media screen and (max-width: 1000px) {
+  .heroButtons {
+    gap: 110px;
+  }
+  .projectCard{
+    width: 40%;
+  }
 }
