@@ -57,12 +57,12 @@ function Skills() {
         <SkillCard
           image= {cLogo}
           title="C++"
-          tag="Programming Language"
+          tag="Language"
         />
         <SkillCard
           image= {pythonLogo}
           title="Python"
-          tag="Programming Language"
+          tag="Language"
         />
 
         <SkillCard

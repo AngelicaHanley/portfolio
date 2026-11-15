@@ -54,15 +54,15 @@ nav {
     background-color: #306F96;
     color: white;
     
-    width: clamp(80px, 10vw,218px);
-    height: clamp(30px, 3vw,100px);
+    width: clamp(70px, 8vw,218px);
+    height: clamp(25px, 2.5vw,100px);
     border-radius: 25px;
     text-decoration: none;
     text-align: center;
     display:flex;
     justify-content: center;
     align-items:center;
-    font-size: clamp(10px,1.3vw,25px);
+    font-size: clamp(10px,1.1vw,25px);
 }
 
 /* hero ! */
@@ -226,6 +226,7 @@ h2 {
     align-items: center;
     max-width: 70%;
     margin: 0px auto;
+    margin-bottom: 100px;
 }
 
 /* skill card ! */
@@ -255,8 +256,8 @@ h2 {
     font-weight: bold;
     margin: 0px;
 }
-.skillTag{
-    font-size: clamp(6px, .7vw, 14px);
+.skillTag {
+    font-size: clamp(6px, 1vw, 14px);
     margin: 0px;
     background-color: #DBDCDD75;
     border-radius: 50px;
@@ -266,6 +267,51 @@ h2 {
     width: fit-content;
     height: auto;
 }
+/* footer! */
+
+.footer {
+    background-color: #E8F3F9;
+    width: 100%;
+}
+
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0px clamp(10px,8vw,200px);
+    font-size: clamp(10px,1.1vw,25px);
+    border-bottom: 1.5px solid #306F96;
+}
+.footerLogo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.footerBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 5px clamp(10px,8vw,200px);
+    font-size: clamp(8px,1vw,18px);
+    color:#306F96;
+}
+.footerLinks{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: center;
+}
+.socialButton{
+    width: clamp(20px, 2.5vw, 40px);
+    height: auto;
+    margin-right: 6px;
+}
+
 
 
 /* media queries */
@@ -288,6 +334,7 @@ h2 {
     .skillTag{
         padding: 2px 4px;
     }
+    
 }
 
 /* medium screens */
@@ -303,4 +350,5 @@ h2 {
         gap: 10px;
         max-width: 90%;
     }
+    
 }
