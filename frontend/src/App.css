@@ -118,7 +118,7 @@ h1 {
     text-decoration: none;
     font-size: clamp(12px, 2vw, 22px);
     min-height: 30px;
-    min-width: 100px;
+    min-width: 140px;
     padding: 8px;
     text-align: center;
     display:flex;
@@ -383,7 +383,7 @@ h2 {
 /* small screens */
 @media screen and (max-width: 600px) {
     .heroButtons {
-        gap: 80px;
+        gap: 0px;
     }
   .projectsGrid {
     display: flex;
@@ -402,13 +402,18 @@ h2 {
     .hero {
         flex-direction: column;
     }
+    .resumeLink {
+        display: block;
+        width: 65%;
+        margin: 0 auto;
+}
     
 }
 
 /* medium screens */
 @media screen and (max-width: 1000px) {
     .heroButtons {
-        gap: 110px;
+        gap: 0px;
     }
     .projectsGrid {
         max-width: 70%;
@@ -424,6 +429,14 @@ h2 {
     .fileImage {
         width: 15%;
         height: auto;
+    }
+    .resumeButton {
+        min-width: 80px;
+    }
+    .fileImg {
+        width: clamp(50px, 12vw,100px);
+        height: auto; 
+        object-fit: contain
     }
 
     

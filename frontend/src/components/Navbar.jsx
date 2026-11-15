@@ -1,7 +1,16 @@
 import starLogo from "../assets/Star.png";
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 function Navbar() {
+  const navigate = useNavigate()
+
+  const goToSection = (id) => {
+    navigate('/')
+    setTimeout(() => {
+      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+    }, 100)
+  }
+
   return (
     <header>
       <nav>
@@ -11,8 +20,20 @@ function Navbar() {
         </Link>
 
         <div className="navLinks">
-          <Link to="/about" className="navLink">About Me</Link>
-          <Link to="/projects" className="navLink">Projects</Link>
+          <a href="#about" onClick={(e) => {
+              e.preventDefault()
+              goToSection('about')
+            }}
+            className="navLink">
+              About Me
+            </a>
+
+          <a href="#projects" onClick={(e) => {
+              e.preventDefault()
+              goToSection('projects')
+            }}
+            className="navLink"
+            >Projects</a>
           <Link to="/resume" className="navLink">Resume</Link>
           <a href="angelicahanley2@gmail.com"
             className="contactButton">

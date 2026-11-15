@@ -1,6 +1,6 @@
 import headshot from "../assets/Headshot.png";
-import linkedin from "../assets/linkedin.png";
-import github from "../assets/github.png";
+import linkedin from "../assets/linkedin.svg";
+import github from "../assets/github.svg";
 import { Link } from 'react-router-dom'
 
 function Hero() {
@@ -18,16 +18,26 @@ function Hero() {
         <div className="heroButtons">
             <Link to="/resume" className="resumeButton">Resume</Link>
             <div className="socialFiles">
-              <img 
-                src={linkedin}
-                alt="linkedIn button"
-                class="fileImg"
-                />
-              <img 
-                src={github}
-                alt="github button"
-                class="fileImg"
+              <a href="https://www.linkedin.com/in/angelicahanley/" target="_blank" 
+                  rel="noopener noreferrer"
+                className="fileImg">
+                <img 
+                  src={linkedin}
+                  alt="linkedIn button"
+                  class="fileImg"
+                  />
+              </a>
+
+              <a href="https://github.com/AngelicaHanley" target="_blank" 
+                  rel="noopener noreferrer" className="fileImg"
+                >
+                <img 
+                  src={github}
+                  alt="github button"
+                  class="fileImg"
                 /> 
+              </a>
+       
             </div> 
         </div>
       </div>
