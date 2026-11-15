@@ -77,7 +77,9 @@ nav {
     justify-content: center;
     align-items: center;
     gap: clamp(15px, 2.2vw, 44px);
-    padding-top: clamp(15px,4vw,80px)
+    padding-top: clamp(15px,4vw,80px);
+    font-size: clamp(9px, 1vw, 20px);
+    line-height: 1.4;
 }
 
 .headshot {
@@ -114,9 +116,10 @@ h1 {
     border: clamp(.5px, .5vw, 5px) solid #306F96;
     border-radius: 50px;
     text-decoration: none;
-    font-size: clamp(12px, 2vw, 24px);
-    width: clamp(80px, 13vw,218px);
-    height: clamp(30px, 4vw,100px);
+    font-size: clamp(12px, 2vw, 22px);
+    min-height: 30px;
+    min-width: 100px;
+    padding: 8px;
     text-align: center;
     display:flex;
     justify-content: center;
@@ -146,16 +149,17 @@ h1 {
 .headings {
     width: 70%;
     display: flex;
-    justify-content: start;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 h2 {
     font-size: clamp(30px, 7vw, 100px);
     font-family: "Archivo", sans-serif;
     font-weight: 100;
-    color:#306F96
+    color:#306F96;
+    margin: 0px;
 }
+
 .projectsGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -273,6 +277,7 @@ h2 {
 .footer {
     background-color: #E8F3F9;
     width: 100%;
+    margin-top: 40px;
 }
 
 .footerTop {
@@ -312,6 +317,66 @@ h2 {
     margin-right: 6px;
 }
 
+/* resume page */
+
+.resumeHero {
+    max-width: 1250px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: clamp(15px,4vw,80px)
+}
+
+.fileImage {
+    width: 30%;
+    height: auto;
+}
+
+.resumeHeroContent {
+    display: flex;
+    gap: clamp(12px, 1.7vw, 30px);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;;
+}
+
+.resumeHeroText {
+    background-color:#E8F3F9;
+    border: clamp(.5px, .5vw, 4px) solid #306F96;
+    border-radius: 25px;
+    padding: clamp(10px, 1.5vw, 20px) clamp(12px, 1.7vw, 30px);
+    font-size: clamp(8px, 1.5vw, 20px);
+}
+
+.resumeHeading {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.resumeImage {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.resumeContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.resumeLink {
+    display: block;
+    width: 45%;
+    margin: 0 auto;
+}
+
 
 
 /* media queries */
@@ -334,6 +399,9 @@ h2 {
     .skillTag{
         padding: 2px 4px;
     }
+    .hero {
+        flex-direction: column;
+    }
     
 }
 
@@ -353,5 +421,10 @@ h2 {
     .footer {
         padding: 0px 20px;
     }
+    .fileImage {
+        width: 15%;
+        height: auto;
+    }
+
     
 }
