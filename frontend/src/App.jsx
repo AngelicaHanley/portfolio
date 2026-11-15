@@ -1,22 +1,24 @@
+import { HashRouter, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Projects from './components/Projects'
-import Skills from './components/Skills'
 import Footer from './components/Footer'
+import Resume from './pages/Resume'
 import './App.css'
-//App is a React component, a JavaScript function that returns JSX
-//JSX lets us write out HTML interface inside JS
+
 function App() {
 
   return (
-    <>
+    <HashRouter>
       <Navbar />
-      <Hero />
-      <Projects />
-      <Skills />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
+
       <Footer />
-    </>
+    </HashRouter>
   )
 }
-//allows other files to import and use this component
+
 export default App

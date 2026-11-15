@@ -30,6 +30,7 @@ nav {
     font-size: clamp(12px,3vw,28px);
     font-weight: bold;
     font-family: 'Agbalumo', cursive;
+    text-decoration: none;
 }
 
 .navLinks {
@@ -280,7 +281,6 @@ h2 {
     align-items: center;
     max-width: 1250px;
     margin: 0 auto;
-    padding: 0px clamp(10px,8vw,200px);
     font-size: clamp(10px,1.1vw,25px);
     border-bottom: 1.5px solid #306F96;
 }
@@ -295,7 +295,7 @@ h2 {
     align-items: center;
     max-width: 1250px;
     margin: 0 auto;
-    padding: 5px clamp(10px,8vw,200px);
+    padding: 5px 0px;
     font-size: clamp(8px,1vw,18px);
     color:#306F96;
 }
@@ -349,6 +349,9 @@ h2 {
         grid-template-columns: repeat(3, 4fr);
         gap: 10px;
         max-width: 90%;
+    }
+    .footer {
+        padding: 0px 20px;
     }
     
 }

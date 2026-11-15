@@ -12,7 +12,7 @@ function Projects() {
         <h2>PROJECTS</h2>
       </div>
 
-      <div className="projectsGrid">
+      <div className="projectsGrid" id="projects">
       <ProjectCard
         title="ENCORE"
         description="A concert-tracking website that allows users to discover upcoming concerts, create Going and Wishlist lists to organize and keep track of concerts they're interested in attending."
