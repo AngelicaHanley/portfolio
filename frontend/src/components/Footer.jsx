@@ -1,6 +1,7 @@
 import starLogo from "../assets/Star.png";
-import githubLogo from "../assets/githubSocial.png";
+import githubLogo from "../assets/githubSocial.svg";
 import linkedinLogo from "../assets/linkedinSocial.png";
+import CopyEmailButton from './CopyEmailButton'
 
 function Footer() {
   return (
@@ -35,11 +36,7 @@ function Footer() {
                 alt="github link"
                 className="socialButton"/>
             </a>
-            <a href="mailto:angelicahanley2@gmail.com" target="_blank" 
-                rel="noopener noreferrer"
-              className="contactButton">
-              Contact Me!
-            </a>
+            <CopyEmailButton />
           </div>
         </div>
       </footer>

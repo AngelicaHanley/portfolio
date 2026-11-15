@@ -1,5 +1,6 @@
 import starLogo from "../assets/Star.png";
 import { Link, useNavigate } from 'react-router-dom'
+import CopyEmailButton from './CopyEmailButton'
 
 function Navbar() {
   const navigate = useNavigate()
@@ -35,10 +36,9 @@ function Navbar() {
             className="navLink"
             >Projects</a>
           <Link to="/resume" className="navLink">Resume</Link>
-          <a href="angelicahanley2@gmail.com"
-            className="contactButton">
-            Contact Me!
-          </a>
+
+          <CopyEmailButton />
+          
         </div>
       </nav>
     </header>

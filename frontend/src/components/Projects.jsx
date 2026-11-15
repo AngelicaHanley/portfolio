@@ -7,12 +7,12 @@ import campbellThumbnail from "../assets/campbellThumbnail.png";
 function Projects() {
   return (
 
-    <div className="section">
+    <div className="section" id="projects">
       <div className="headings">
         <h2>PROJECTS</h2>
       </div>
 
-      <div className="projectsGrid" id="projects">
+      <div className="projectsGrid">
       <ProjectCard
         title="ENCORE"
         description="A concert-tracking website that allows users to discover upcoming concerts, create Going and Wishlist lists to organize and keep track of concerts they're interested in attending."

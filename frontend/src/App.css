@@ -1,3 +1,36 @@
+a {
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+
+a:hover {
+  color: #306F96;
+  transform: translateY(-2px);
+}
+
+button,
+.resumeButton {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+button:hover,
+.resumeButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.projectCard {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+.projectButton:hover {
+    color: #E8F3F9;
+}
+
+
 /* header ! */
 
 header {
@@ -46,24 +79,22 @@ nav {
     font-size: clamp(10px,1.3vw,25px);
 }
 
-.navLink:hover {
-    color: #306F96;
-    font-weight: bold;
-}
-
 .contactButton {
     background-color: #306F96;
     color: white;
     
-    width: clamp(70px, 8vw,218px);
+    width: clamp(80px, 8vw,218px);
     height: clamp(25px, 2.5vw,100px);
     border-radius: 25px;
+    border: none;
     text-decoration: none;
     text-align: center;
     display:flex;
     justify-content: center;
     align-items:center;
     font-size: clamp(10px,1.1vw,25px);
+    cursor: pointer;
+    font-family: inherit;
 }
 
 /* hero ! */
@@ -437,7 +468,14 @@ h2 {
         width: clamp(50px, 12vw,100px);
         height: auto; 
         object-fit: contain
-    }
+    } 
+}
 
-    
+@media (prefers-reduced-motion: reduce) {
+  a,
+  button,
+  .downloadButton,
+  .projectCard {
+    transition: none;
+  }
 }
