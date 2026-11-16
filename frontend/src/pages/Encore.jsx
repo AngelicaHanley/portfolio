@@ -18,7 +18,6 @@ function Encore() {
           <p className="projectTag">Frontend Development</p>
           <p className="projectTag">JavaScript</p>
           <p className="projectTag">Ticketmaster API</p>
-          <p className="projectTag">HTML/CSS</p>
         </div>
 
         <img className="encoreHeroImage" src={encoreHero} alt="Encore homepage" />

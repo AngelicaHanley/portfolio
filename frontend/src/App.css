@@ -480,7 +480,7 @@ h2 {
 
 .projectTitle {
     font-family: 'Archivo', sans-serif;
-    font-size: clamp(31px, 5vw, 72px);
+    font-size: clamp(35px, 5vw, 72px);
     font-weight: 500;
     line-height: 1.15;
     margin-bottom: 22px;
@@ -683,6 +683,7 @@ h2 {
 }
 
 /* media queries */
+
 /* small screens */
 @media screen and (max-width: 600px) {
     .navLogoText {
@@ -803,6 +804,9 @@ h2 {
     .sectionHeading{
         font-size: 23px;
     }
+    .filmPopImages {
+        margin-top: 10px;
+    }
 }
 
 /* medium screens */
@@ -846,10 +850,10 @@ h2 {
         gap: 24px;
     }
     .filmPopImg {
-        width: 40%;
+        width: 45%;
     }
     .campbellImg {
-        width: 45%;
+        width: 50%;
     }
 }
 

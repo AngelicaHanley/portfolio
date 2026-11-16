@@ -13,7 +13,6 @@ function AfterDark() {
           <p className="projectTag">React</p>
           <p className="projectTag">JavaScript</p>
           <p className="projectTag">Tailwind CSS</p>
-          <p className="projectTag">Figma</p>
           <p className="projectTag">Python</p>
         </div>
 
