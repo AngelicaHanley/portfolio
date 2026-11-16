@@ -668,7 +668,7 @@ h2 {
     }
 
     h1 {
-        font-size: clamp(29px, 5vw, 50px);
+        font-size: clamp(28px, 5vw, 50px);
     }
 
     .resumeHeroContent {
