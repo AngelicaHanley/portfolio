@@ -159,7 +159,7 @@ h1 {
     border: clamp(.5px, .5vw, 5px) solid #306F96;
     border-radius: 50px;
     text-decoration: none;
-    font-size: clamp(12px, 2vw, 22px);
+    font-size: clamp(9px, 2vw, 16px);
     min-height: 30px;
     min-width: 140px;
     padding: 8px;
@@ -338,7 +338,7 @@ h2 {
     align-items: center;
     max-width: 1250px;
     margin: 0px auto;
-    padding: 5px 0px;
+    padding: 8px 0px;
     font-size: clamp(10px, 1.1vw, 25px);
     border-bottom: 1.5px solid #306F96;
 }
@@ -836,6 +836,7 @@ h2 {
 
     .resumeButton {
         min-width: 80px;
+        padding: 4px;
     }
     .fileImg {
         width: clamp(50px, 12vw, 100px);
