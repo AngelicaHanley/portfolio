@@ -26,7 +26,7 @@ function Projects() {
         description="Developed a mobile app within a team, that provides users with personalized movie recommendations and an interactive browsing experience."
         image={filmPopThumbnail}
         tag="Mobile App & UI Design"
-        link="/portfolio/filmPop"
+        link="/comingSoon"
       />
 
       <ProjectCard
@@ -34,7 +34,7 @@ function Projects() {
         description="Created an interactive React application with dynamic user inputs and form validation to generate personalized recommendations."
         image={afterdarkThumbnail}
         tag="React Development & UI Design"
-        link="/portfolio/afterdarkAnalytics"
+        link="/comingSoon"
       />
 
       <ProjectCard
@@ -42,7 +42,7 @@ function Projects() {
         description="Developed a cohesive brand identity through logo design, typography, color palettes, and visual elements to create an elegant and recognizable brand."
         image={campbellThumbnail}
         tag="Brand Identity & Graphic Design"
-        link="/portfolio/campbellPhotography"
+        link="/comingSoon"
       />
       </div>
 
