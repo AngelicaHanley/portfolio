@@ -34,7 +34,7 @@ function Projects() {
         description="Created an interactive React application with dynamic user inputs and form validation to generate personalized recommendations."
         image={afterdarkThumbnail}
         tag="React Development & UI Design"
-        link="/comingSoon"
+        link="/afterDark"
       />
 
       <ProjectCard

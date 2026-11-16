@@ -44,27 +44,6 @@ function FilmPop() {
 
       <div className="comingSoonContent">
 
-       {/*} <h1 className="projectTitle">FILMPOP</h1>
-        <div className="behindDesignSection">
-            <img src={filmPopHome} alt="filmPop home screen" className="filmPopImg"/>
-            <img src={filmPopMovies} alt="filmPop recommendations screen" className="filmPopImg"/>
-            <div className = "behindDesignText">
-                <h2 className="sectionHeading">FilmPop Design</h2>
-                <div className="encoreButtons">
-                  <a href="https://www.figma.com/design/mQY9mfNUPjTTbMAZlZntzu/FilmPop-Pages?node-id=0-1&t=G9Ecw7NReVnckSYz-1" target="_blank" 
-                    rel="noopener noreferrer"
-                    className="contactButton">
-                    <p>Figma</p>
-                  </a>
-                  <a href="https://github.com/isa-par06/FilmPop" target="_blank" 
-                    rel="noopener noreferrer"
-                    className="contactButton encoreButtonLight">
-                    <p>GitHub</p>
-                  </a>
-                </div>
-            </div>
-        </div>*/}
-
         <h1>Case Study Coming Soon!</h1>
         <p>
           I'm currently working on this project page.

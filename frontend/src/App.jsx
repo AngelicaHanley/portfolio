@@ -7,6 +7,7 @@ import Encore from './pages/Encore'
 import ComingSoon from './pages/ComingSoon'
 import BehindDesign from './pages/BehindDesign'
 import FilmPop from './pages/FilmPop'
+import AfterDark from './pages/AfterDark'
 import './App.css'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/comingSoon" element={<ComingSoon />} />
         <Route path="/behindDesign" element={<BehindDesign />} />
         <Route path="/filmPop" element={<FilmPop />} />
+        <Route path="/afterDark" element={<AfterDark />} />
       </Routes>
 
       <Footer />
