@@ -502,7 +502,7 @@ h2 {
     color: #306F96;
     padding: 7px 18px;
     border-radius: 30px;
-    font-size: clamp(11px, .9vw, 14px);
+    font-size: clamp(9px, .9vw, 14px);
 }
 
 .encoreHeroImage {
@@ -641,7 +641,7 @@ h2 {
 
 .behindDesignSectionImg {
     border-radius: 18px;
-    width: 70%;
+    width: 80%;
     height: auto;
 }
 
@@ -792,6 +792,9 @@ h2 {
     }
     .sectionHeading{
         font-size: 23px;
+    }
+    .behindDesignSectionImg {
+        width: 90%;
     }
 }
 
