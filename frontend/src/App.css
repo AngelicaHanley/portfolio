@@ -14,11 +14,11 @@ nav a:hover {
 }
 
 button, .fileImg,
-.projectButton, .behindDesign, .resumeButton, .downloadButton, .socialButton, .encoreButton{
+.projectButton, .behindDesign, .resumeButton, .downloadButton, .socialButton, .encoreButton, .behindDesignText a{
   transition: transform 0.25s ease, opacity 0.25s ease;
 }
 
-.fileImg:hover, .projectButton:hover, .behindDesign:hover, .socialButton:hover, .encoreButton:hover{
+.fileImg:hover, .projectButton:hover, .behindDesign:hover, .socialButton:hover, .encoreButton:hover, .behindDesignText a:hover{
     transform: translateY(-2px);
     opacity: 0.9;
 }
@@ -81,7 +81,7 @@ nav {
 .navLinks {
     display: flex;
     align-items: center;
-    gap: clamp(3px, 3vw, 40px);
+    gap: clamp(20px, 3vw, 40px);
 }
 
 .navLink {
@@ -624,12 +624,28 @@ h2 {
     gap: 25px;
 }
 
-.comingSoonContent h1 {
-    font-family: 'Archivo', sans-serif;
-    font-size: clamp(40px, 7vw, 90px);
-    margin: 30px 0px;
+.comingSoonContent .projectTitle {
+    margin-bottom: 60px;
 }
 
+/* Behind Design Website */
+.behindDesignSection {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.behindDesignSection img{
+    border-radius: 18px;
+    width: 70%;
+    height: auto;
+}
+.behindDesignText a {
+    margin: 0px auto;
+}
 
 /* media queries */
 /* small screens */
@@ -688,7 +704,7 @@ h2 {
     }
 
     h1 {
-        font-size: clamp(28px, 5vw, 50px);
+        font-size: clamp(26px, 5vw, 50px);
     }
 
     .resumeHeroContent {
@@ -745,6 +761,12 @@ h2 {
     }
     .encoreInfoCard {
         margin: 10px 0px;
+    }
+    .comingSoonContent .projectTitle {
+        margin-bottom: 30px;
+    }
+    .sectionHeading{
+        font-size: 23px;
     }
 }
 

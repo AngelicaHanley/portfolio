@@ -16,7 +16,7 @@ function Footer() {
             />
             <p>Designed & Developed with {'<3'} by Me.</p>
         </div>
-        <Link to="/comingSoon" className="behindDesign">
+        <Link to="/behindDesign" className="behindDesign">
           Behind the Design
           <svg
             xmlns="http://www.w3.org/2000/svg"

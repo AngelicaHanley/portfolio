@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import Resume from './pages/Resume'
 import Encore from './pages/Encore'
 import ComingSoon from './pages/ComingSoon'
+import BehindDesign from './pages/BehindDesign'
 import './App.css'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/resume" element={<Resume />} />
         <Route path="/encore" element={<Encore />} />
         <Route path="/comingSoon" element={<ComingSoon />} />
+        <Route path="/behindDesign" element={<BehindDesign />} />
       </Routes>
 
       <Footer />

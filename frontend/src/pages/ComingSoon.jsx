@@ -5,7 +5,7 @@ function ComingSoon() {
   return (
     <main className="comingSoon">
       <div className="comingSoonContent">
-        <h1>Coming Soon!</h1>
+        <h1>Case Study Coming Soon!</h1>
         <p>
           I'm currently working on this project page.
           <br/>
