@@ -11,8 +11,10 @@ function Resume() {
     <div className="resumeHero">
       <h1>Currently Looking For ...</h1>
       <div className="resumeHeroContent">
-        <img src={internshipFile} alt="internship roles" className="fileImage"/>
-        <img src={newGradFile} alt="new grad roles" className="fileImage"/>
+        <div className= "fileRoles">
+          <img src={internshipFile} alt="internship roles" className="fileImage"/>
+          <img src={newGradFile} alt="new grad roles" className="fileImage"/>
+        </div>
         <p className ="resumeHeroText">
           I'm currently seeking opportunities in web development, UI/web design, and front-end development. I'd love to connect and explore potential opportunities!
         </p>

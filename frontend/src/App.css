@@ -387,8 +387,17 @@ h2 {
     padding-top: clamp(15px, 4vw, 80px)
 }
 
+.fileRoles {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
 .fileImage {
-    width: 30%;
+    width: 35%;
     height: auto;
 }
 
@@ -399,7 +408,6 @@ h2 {
     justify-content: center;
     align-items: center;
     margin: 30px 0px;
-    ;
 }
 
 .resumeHeroText {
@@ -655,21 +663,34 @@ h2 {
     .headshot {
         width: clamp(170px, 30vw, 340px);
     }
-
     .heroContent {
         font-size: clamp(10px, 1.5vw, 20px);
     }
+
     h1 {
         font-size: clamp(29px, 5vw, 50px);
     }
+
+    .resumeHeroContent {
+        flex-direction: column;
+        margin: 30px 0px;
+        max-width: 250px;
+        font-size: clamp(12px, 1.5vw, 20px);
+        gap: 20px;
+    }
+
     .resumeLink {
         display: block;
         width: 65%;
         margin: 0 auto;
     }
+    
+    .fileRoles {
+        justify-content: start;
+    }
+    
     .projectPage {
-        width: 88%;
-        font-size: 12px;
+        width: 88%;font-size: 12px;
     }
 
     .sectionHeading  {
@@ -728,7 +749,7 @@ h2 {
     }
 
     .fileImage {
-        width: 15%;
+        width: 30%;
         height: auto;
     }
 
