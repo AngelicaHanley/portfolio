@@ -7,7 +7,9 @@ function BehindDesign() {
     <main className="projectPage">
       <section className="projectIntro">
         <h1 className="projectTitle">BEHIND THE DESIGN</h1>
-        <p className="projectIntroText">I designed and developed this portfolio website to showcase my projects, technical skills, and passion for front-end development and UI design. I began by designing the UI by creating wireframes in Figma. Then I brought the design to life using responsive layouts, reusable components, and interactive elements to create an engaging, user-friendly experience.</p>
+        <p className="projectIntroText">I designed and developed this portfolio website to showcase my projects, technical skills, and passion for front-end development and UI design. I began by designing the UI by creating wireframes in Figma. </p>
+        <br></br>
+        <p className="projectIntroText">I brought the design to life using responsive layouts, reusable components, and interactive elements to create an engaging, user-friendly experience.</p>
         <div className="projectTags">
           <p className="projectTag">React</p>
           <p className="projectTag">JavaScript</p>

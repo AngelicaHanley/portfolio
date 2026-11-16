@@ -42,7 +42,7 @@ function Projects() {
         description="Developed a cohesive brand identity through logo design, typography, color palettes, and visual elements to create an elegant and recognizable brand."
         image={campbellThumbnail}
         tag="Brand Identity & Graphic Design"
-        link="/comingSoon"
+        link="/campbell"
       />
       </div>
 

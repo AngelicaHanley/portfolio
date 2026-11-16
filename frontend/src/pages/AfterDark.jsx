@@ -7,7 +7,7 @@ function AfterDark() {
   return (
     <main className="projectPage">
       <section className="projectIntro">
-        <h1 className="projectTitle">AFTERDARK</h1>
+        <h1 className="projectTitle">AFTERDARK ANALYTICS</h1>
         <p className="projectIntroText">Created an interactive React application with dynamic user inputs and form validation to generate personalized recommendations.</p>
         <div className="projectTags">
           <p className="projectTag">React</p>
