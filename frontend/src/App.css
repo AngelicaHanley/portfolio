@@ -706,6 +706,7 @@ h2 {
         grid-template-columns: repeat(3, 4fr);
         gap: 10px;
         max-width: 90%;
+        margin-bottom: 50px;
     }
 
     .footer {
