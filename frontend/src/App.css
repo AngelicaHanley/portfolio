@@ -846,7 +846,10 @@ h2 {
         gap: 24px;
     }
     .filmPopImg {
-        width: 35%;
+        width: 40%;
+    }
+    .campbellImg {
+        width: 45%;
     }
 }
 

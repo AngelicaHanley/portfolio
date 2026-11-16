@@ -1,16 +1,11 @@
 import starLogo from "../assets/Star.png";
 import { Link, useNavigate } from 'react-router-dom'
 import CopyEmailButton from './CopyEmailButton'
+import useScrollToSection from '../hooks/useScrollToSection'
+
 
 function Navbar() {
-  const navigate = useNavigate()
-
-  const goToSection = (id) => {
-    navigate('/')
-    setTimeout(() => {
-      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
-    }, 100)
-  }
+  const goToSection = useScrollToSection()
 
   return (
     <header>
