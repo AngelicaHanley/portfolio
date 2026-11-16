@@ -835,6 +835,9 @@ h2 {
         grid-template-columns: 1.4fr 1fr;
         gap: 24px;
     }
+    .filmPopImg {
+        width: 35%;
+    }
 }
 
 @media (prefers-reduced-motion: reduce) {
