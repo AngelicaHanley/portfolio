@@ -7,7 +7,7 @@ function BehindDesign() {
     <main className="projectPage">
       <section className="projectIntro">
         <h1 className="projectTitle">BEHIND THE DESIGN</h1>
-        <p className="projectIntroText">I designed and developed this portfolio website to showcase my projects, technical skills, and passion for front-end development and UI design. I began by designing the UI by creating wireframes in Figma. </p>
+        <p className="projectIntroText">I designed and developed this portfolio website to showcase my projects, technical skills, and passion for front-end development and UI design. I began by creating wireframes in Figma to plan the website's layout and user interface. </p>
         <br></br>
         <p className="projectIntroText">I brought the design to life using responsive layouts, reusable components, and interactive elements to create an engaging, user-friendly experience.</p>
         <div className="projectTags">
@@ -42,7 +42,7 @@ function BehindDesign() {
       </section>
       
       <div className="comingSoonContent">
-        <h1>Case Study Coming Soon!</h1>
+        <h2>Case Study Coming Soon!</h2>
           <p>
             I'm currently working on this project page.
             <br/>

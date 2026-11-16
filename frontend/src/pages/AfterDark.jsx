@@ -8,7 +8,7 @@ function AfterDark() {
     <main className="projectPage">
       <section className="projectIntro">
         <h1 className="projectTitle">AFTERDARK ANALYTICS</h1>
-        <p className="projectIntroText">Created an interactive React application with dynamic user inputs and form validation to generate personalized recommendations.</p>
+        <p className="projectIntroText">A collaborative React application that analyzes user inputs, including mood, energy, and responsibilities, to generate a personalized recommendation for a night out.</p>
         <div className="projectTags">
           <p className="projectTag">React</p>
           <p className="projectTag">JavaScript</p>
@@ -18,8 +18,8 @@ function AfterDark() {
 
         <div className="filmPopIntro">
           <div className="filmPopImages">
-            <img src={AfterDarkHome} alt="filmPop home screen" className="filmPopImg"/>
-            <img src={AfterDarkResults} alt="filmPop recommendations screen" className="filmPopImg"/>
+            <img src={AfterDarkHome} alt="AfterDark Analytics home screen" className="filmPopImg"/>
+            <img src={AfterDarkResults} alt="AfterDark Analytics results screen" className="filmPopImg"/>
           </div>
 
           <div className="encoreButtons">
@@ -44,7 +44,7 @@ function AfterDark() {
 
       <div className="comingSoonContent">
 
-        <h1>Case Study Coming Soon!</h1>
+        <h2>Case Study Coming Soon!</h2>
         <p>
           I'm currently working on this project page.
           <br/>

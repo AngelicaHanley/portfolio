@@ -34,6 +34,11 @@ function Skills() {
           tag="Web Development"
         />
         <SkillCard
+          image= {figmaLogo}
+          title="Figma"
+          tag="UI/UX Design"
+        />
+        <SkillCard
           image= {tailwindLogo}
           title="Tailwind CSS"
           tag="Styling Framework"
@@ -46,13 +51,8 @@ function Skills() {
 
         <SkillCard
           image= {githubLogo}
-          title="Git & Github"
+          title="Git & GitHub"
           tag="Version Control"
-        />
-        <SkillCard
-          image= {figmaLogo}
-          title="Figma"
-          tag="UI/UX Design"
         />
         <SkillCard
           image= {cLogo}

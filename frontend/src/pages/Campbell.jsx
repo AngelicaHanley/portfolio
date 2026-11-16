@@ -38,7 +38,7 @@ function Campbell() {
 
       <div className="comingSoonContent">
 
-        <h1>Case Study Coming Soon!</h1>
+        <h2>Case Study Coming Soon!</h2>
         <p>
           I'm currently working on this project page.
           <br />

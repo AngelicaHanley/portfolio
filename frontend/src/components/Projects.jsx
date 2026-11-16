@@ -15,7 +15,7 @@ function Projects() {
       <div className="projectsGrid">
       <ProjectCard
         title="ENCORE"
-        description="A concert-tracking website that allows users to discover upcoming concerts, create Going and Wishlist lists to organize and keep track of concerts they're interested in attending."
+        description="A concert-tracking website that allows users to discover upcoming concerts and organize events into personalized Going and Wishlist collections."
         image={encoreThumbnail}
         tag="Web Development & UI Design"
         link="/encore"
@@ -23,7 +23,7 @@ function Projects() {
 
       <ProjectCard
         title="FILMPOP"
-        description="Developed a mobile app within a team, that provides users with personalized movie recommendations and an interactive browsing experience."
+        description="Collaborated with a team to develop a mobile application that provides personalized movie recommendations and an interactive browsing experience."
         image={filmPopThumbnail}
         tag="Mobile App & UI Design"
         link="/filmPop"
@@ -31,7 +31,7 @@ function Projects() {
 
       <ProjectCard
         title="AFTERDARK ANALYTICS"
-        description="Created an interactive React application with dynamic user inputs and form validation to generate personalized recommendations."
+        description="A collaborative React application that analyzes user inputs, including mood, energy, and responsibilities, to generate a personalized recommendation for a night out."
         image={afterdarkThumbnail}
         tag="React Development & UI Design"
         link="/afterDark"

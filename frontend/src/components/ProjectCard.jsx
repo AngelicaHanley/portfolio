@@ -10,7 +10,7 @@ function ProjectCard({ title, description, image, tag, link}) {
         {/*<img src={tag} alt={title} className="projectTag"/>*/}
         <h3 className="projectCardTitle">{title}</h3>
         <p className="projectDescription">{description}</p>
-        <Link to={link} className="projectButton">→</Link>
+        <Link to={link} className="projectButton" aria-label={`View ${title} project`}>→</Link>
       </div>
     </div>
 

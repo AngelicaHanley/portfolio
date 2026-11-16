@@ -618,6 +618,14 @@ h2 {
     padding: 40px 20px;
 }
 
+.comingSoonContent h2 {
+    font-size: clamp(20px, 5vw, 50px);
+    color: #306F96;
+    font-weight: bold;
+    font-family: 'Agbalumo', cursive;
+    margin: 0px;
+}
+
 .comingSoonContent {
     display: flex;
     flex-direction: column;
@@ -683,6 +691,55 @@ h2 {
 }
 
 /* media queries */
+
+/* medium screens */
+@media screen and (max-width: 1000px) {
+    .heroButtons {
+        gap: 0px;
+    }
+
+    .projectsGrid {
+        max-width: 70%;
+    }
+
+    .skillsGrid {
+        grid-template-columns: repeat(3, 4fr);
+        gap: 10px;
+        max-width: 90%;
+    }
+
+    .footer {
+        padding: 0px 20px;
+    }
+
+    .fileImage {
+        width: 30%;
+        height: auto;
+    }
+
+    .resumeButton {
+        min-width: 80px;
+        padding: 4px;
+    }
+    .fileImg {
+        width: clamp(50px, 12vw, 100px);
+        height: auto;
+        object-fit: contain
+    }
+    .projectPage {
+        width: 82%;
+    }
+    .encoreFeature {
+        grid-template-columns: 1.4fr 1fr;
+        gap: 24px;
+    }
+    .filmPopImg {
+        width: 45%;
+    }
+    .campbellImg {
+        width: 50%;
+    }
+}
 
 /* small screens */
 @media screen and (max-width: 600px) {
@@ -806,55 +863,6 @@ h2 {
     }
     .filmPopImages {
         margin-top: 10px;
-    }
-}
-
-/* medium screens */
-@media screen and (max-width: 1000px) {
-    .heroButtons {
-        gap: 0px;
-    }
-
-    .projectsGrid {
-        max-width: 70%;
-    }
-
-    .skillsGrid {
-        grid-template-columns: repeat(3, 4fr);
-        gap: 10px;
-        max-width: 90%;
-    }
-
-    .footer {
-        padding: 0px 20px;
-    }
-
-    .fileImage {
-        width: 30%;
-        height: auto;
-    }
-
-    .resumeButton {
-        min-width: 80px;
-        padding: 4px;
-    }
-    .fileImg {
-        width: clamp(50px, 12vw, 100px);
-        height: auto;
-        object-fit: contain
-    }
-    .projectPage {
-        width: 82%;
-    }
-    .encoreFeature {
-        grid-template-columns: 1.4fr 1fr;
-        gap: 24px;
-    }
-    .filmPopImg {
-        width: 45%;
-    }
-    .campbellImg {
-        width: 50%;
     }
 }
 

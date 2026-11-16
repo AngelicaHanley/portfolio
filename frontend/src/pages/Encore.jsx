@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-
 import encoreHero from '../assets/encoreHero.png'
 import encoreDiscover from '../assets/encoreDiscover.png'
 import encoreConcerts from '../assets/encoreConcerts.png'
@@ -13,7 +11,7 @@ function Encore() {
     <main className="projectPage" id="top">
       <section className="projectIntro">
         <h1 className="projectTitle">ENCORE</h1>
-        <p className="projectIntroText">An interactive concert-tracking website that allows users to search for upcoming concerts and manage personalized event lists.</p>
+        <p className="projectIntroText">A concert-tracking website that allows users to discover upcoming concerts and organize events into personalized Going and Wishlist collections.</p>
         <div className="projectTags">
           <p className="projectTag">Frontend Development</p>
           <p className="projectTag">JavaScript</p>
@@ -107,7 +105,7 @@ function Encore() {
 
       <section className="projectSection">
         <h2 className="sectionHeading">4. REFLECTION</h2>
-        <p>Developing Encore strengthened my skills in asynchronous JavaScript, API integration, dynamic content generation, and browser storage. It also gave me more website design and development experience.</p>
+        <p>Developing Encore strengthened my skills in asynchronous JavaScript, API integration, dynamic content generation, and browser storage while giving me additional experience designing and developing an interactive website from concept to completion.</p>
         <div className="encoreInfoCard">
           <h3 className="projectCardHeading">Future Improvements</h3>
           <p>If I continued developing Encore, I would begin with Figma wireframes to better plan the user experience, implement location-based concert filtering, and integrate Firebase Authentication and Firestore to allow users to create accounts and save their concert lists across devices.</p>

@@ -13,8 +13,7 @@ function Hero() {
       />
       <div className="heroContent">
         <h1>Hi, I’m Angelica Hanley!</h1>
-        <p>I’m a Computer Science graduate from the University of Florida, now pursuing a Master’s in Mass Communication with a concentration in Web Design. I'm passionate about website development, UX/UI design, and creating 
-            user-focused web experiences.</p>
+        <p>I’m a Computer Science graduate from the University of Florida, now pursuing a Master’s in Mass Communication with a concentration in Web Design. I'm passionate about web development, UX/UI design, and creating engaging, user-friendly web experiences.</p>
         <div className="heroButtons">
             <Link to="/resume" className="resumeButton">Resume</Link>
             <div className="socialFiles">
@@ -24,7 +23,7 @@ function Hero() {
                 <img 
                   src={linkedin}
                   alt="linkedIn button"
-                  class="fileImg"
+                  className="fileImg"
                   />
               </a>
 
@@ -34,7 +33,7 @@ function Hero() {
                 <img 
                   src={github}
                   alt="github button"
-                  class="fileImg"
+                  className="fileImg"
                 /> 
               </a>
        

@@ -9,7 +9,7 @@ function Resume() {
   return (
     <>
     <div className="resumeHero">
-      <h1>Currently Looking For ...</h1>
+      <h1>Currently Seeking ...</h1>
       <div className="resumeHeroContent">
         <div className= "fileRoles">
           <img src={internshipFile} alt="internship roles" className="fileImage"/>

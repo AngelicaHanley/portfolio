@@ -8,7 +8,7 @@ function FilmPop() {
     <main className="projectPage">
       <section className="projectIntro">
         <h1 className="projectTitle">FILMPOP</h1>
-        <p className="projectIntroText">Developed a mobile app within a team, that provides users with personalized movie recommendations and an interactive browsing experience.</p>
+        <p className="projectIntroText">Collaborated with a team to develop a mobile application that provides personalized movie recommendations and an interactive browsing experience.</p>
         <div className="projectTags">
           <p className="projectTag">React Native</p>
           <p className="projectTag">Expo Go</p>
@@ -44,7 +44,7 @@ function FilmPop() {
 
       <div className="comingSoonContent">
 
-        <h1>Case Study Coming Soon!</h1>
+        <h2>Case Study Coming Soon!</h2>
         <p>
           I'm currently working on this project page.
           <br/>
