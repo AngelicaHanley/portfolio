@@ -2,10 +2,14 @@
   box-sizing: border-box;
 }
 
+p {
+  margin: 0px;
+}
+
 body {
   font-family: 'DM Sans', sans-serif;
   margin: 0;
-  font-size: 18px;
+  font-size: clamp(13px, 1.1vw, 17px);
 
   background-image: url('./assets/Background.jpg');
   background-size: cover;

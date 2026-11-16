@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Resume from './pages/Resume'
+import Encore from './pages/Encore'
 import './App.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/resume" element={<Resume />} />
+        <Route path="/encore" element={<Encore />} />
       </Routes>
 
       <Footer />

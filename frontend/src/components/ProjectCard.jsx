@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom'
 
 function ProjectCard({ title, description, image, tag, link}) {
   return (
@@ -8,9 +8,9 @@ function ProjectCard({ title, description, image, tag, link}) {
       <div className="projectCardContent">
         <p className="skillTag">{tag}</p>
         {/*<img src={tag} alt={title} className="projectTag"/>*/}
-        <h3 className="projectTitle">{title}</h3>
+        <h3 className="projectCardTitle">{title}</h3>
         <p className="projectDescription">{description}</p>
-        <a href={link} className="projectButton">→</a>
+        <Link to={link} className="projectButton">→</Link>
       </div>
     </div>
 

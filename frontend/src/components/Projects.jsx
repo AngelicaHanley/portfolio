@@ -18,7 +18,7 @@ function Projects() {
         description="A concert-tracking website that allows users to discover upcoming concerts, create Going and Wishlist lists to organize and keep track of concerts they're interested in attending."
         image={encoreThumbnail}
         tag="Web Development & UI Design"
-        link="/portfolio/encore"
+        link="/encore"
       />
 
       <ProjectCard

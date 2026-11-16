@@ -14,7 +14,7 @@ function Resume() {
         <img src={internshipFile} alt="internship roles" className="fileImage"/>
         <img src={newGradFile} alt="new grad roles" className="fileImage"/>
         <p className ="resumeHeroText">
-          I'm currently seeking opportunities in web development and UI/web design. I'd love to connect and explore potential opportunities!
+          I'm currently seeking opportunities in web development, UI/web design, and front-end development. I'd love to connect and explore potential opportunities!
         </p>
       </div>
     </div> 
@@ -39,7 +39,7 @@ function Resume() {
 
       <a href={`${import.meta.env.BASE_URL}Angelica_Hanley_Resume.pdf`}
         download="Angelica_Hanley_Resume.pdf"
-        className="resumeButton">
+        className="resumeButton downloadButton">
         Download PDF
       </a>
       
