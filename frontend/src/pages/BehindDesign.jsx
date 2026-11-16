@@ -9,7 +9,7 @@ function BehindDesign() {
 
         <h1 className="projectTitle">PORTFOLIO WEBSITE</h1>
         <div className="behindDesignSection">
-            <img src={portfolioFigma} alt="figma image" />
+            <img src={portfolioFigma} alt="figma image" className="behindDesignSectionImg"/>
             <div className = "behindDesignText">
                 <h2 className="sectionHeading">Portfolio Wireframes</h2>
                 <a href="https://www.figma.com/design/8s67KXeDJqNFO0bBJMtBJ2/Figma-Portfolio?node-id=3-2&t=7CSNCvixjRtg7k2p-1" target="_blank" 

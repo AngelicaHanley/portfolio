@@ -537,6 +537,7 @@ h2 {
 .encoreButtonLight {
     background: #E8F3F9;
     color: #306F96;
+    border: 2px solid #306F96;
 }
 
 .projectSection {
@@ -638,13 +639,37 @@ h2 {
     gap: 20px;
 }
 
-.behindDesignSection img{
+.behindDesignSectionImg {
     border-radius: 18px;
     width: 70%;
     height: auto;
 }
+
 .behindDesignText a {
     margin: 0px auto;
+}
+
+/* FilmPop */
+.filmPopImg {
+    border-radius: 18px;
+    width: 25%;
+    height: auto;
+}
+.behindDesignText .encoreButtons {
+    gap: 0px;
+}
+.filmPopIntro {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.filmPopImages {
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 40px;
 }
 
 /* media queries */

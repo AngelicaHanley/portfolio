@@ -26,7 +26,7 @@ function Projects() {
         description="Developed a mobile app within a team, that provides users with personalized movie recommendations and an interactive browsing experience."
         image={filmPopThumbnail}
         tag="Mobile App & UI Design"
-        link="/comingSoon"
+        link="/filmPop"
       />
 
       <ProjectCard
