@@ -652,6 +652,16 @@ h2 {
         flex-direction: column;
     }
 
+    .headshot {
+        width: clamp(170px, 30vw, 340px);
+    }
+
+    .heroContent {
+        font-size: clamp(10px, 1.5vw, 20px);
+    }
+    h1 {
+        font-size: clamp(29px, 5vw, 50px);
+    }
     .resumeLink {
         display: block;
         width: 65%;
@@ -691,6 +701,9 @@ h2 {
 
     .projectSection {
         margin: 38px 0 48px;
+    }
+    .encoreInfoCard {
+        margin: 10px 0px;
     }
 }
 
