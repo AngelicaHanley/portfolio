@@ -17,7 +17,7 @@ function Navbar() {
       <nav>
         <Link to="/" className="navLogo">
           <img src={starLogo} alt="" className="starLogo" />
-          Angelica Hanley
+          <span className="navLogoText">Angelica Hanley</span>
         </Link>
 
         <div className="navLinks">

@@ -634,6 +634,26 @@ h2 {
 /* media queries */
 /* small screens */
 @media screen and (max-width: 600px) {
+    .navLogoText {
+        display: none;
+    }
+    
+    nav {
+        justify-content: start;
+        gap: 5px;
+        margin: 0 auto;
+        padding: 20px clamp(10px, 8vw, 200px);
+        max-width: 95%;
+    }
+
+    .navLinks {
+      width: 100%;  
+    }
+
+    .navLinks .contactButton {
+        margin-left: auto;
+    }
+    
     .heroButtons {
         gap: 0px;
     }
