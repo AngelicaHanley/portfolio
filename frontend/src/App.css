@@ -14,11 +14,11 @@ nav a:hover {
 }
 
 button, .fileImg,
-.projectButton, .behindDesign, .resumeButton, .downloadButton, .socialButton, .encoreButton, .behindDesignText a{
+.projectButton, .behindDesign, .resumeButton, .downloadButton, .socialButton, .encoreButton, .behindDesignText a, .projectBottomLinks a{
   transition: transform 0.25s ease, opacity 0.25s ease;
 }
 
-.fileImg:hover, .projectButton:hover, .behindDesign:hover, .socialButton:hover, .encoreButton:hover, .behindDesignText a:hover{
+.fileImg:hover, .projectButton:hover, .behindDesign:hover, .socialButton:hover, .encoreButton:hover, .behindDesignText a:hover, .projectBottomLinks a:hover{
     transform: translateY(-2px);
     opacity: 0.9;
 }
@@ -29,11 +29,11 @@ button:hover,
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
-.projectCard, .skillCard {
+.projectCard, .skillCard, .resumeImage, .fileImage{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.projectCard:hover, .skillCard:hover {
+.projectCard:hover, .skillCard:hover, .resumeImage:hover, .fileImage:hover{
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
